@@ -31,39 +31,64 @@
 <body>
 
     <!-- header section  -->
-    <div class="navbar bg-base-100 shadow-sm md:px-14">
-        <div class="navbar-start">
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
+    <header>
+        <div class="navbar bg-base-100 shadow-sm md:px-14">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow gap-y-1">
+                        <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-circle-question"></i> FAQ</a>
+                        </li>
+                        <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-book"></i> Learn</a></li>
+                        <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-right-from-bracket"></i> Log
+                                Out</a></li>
+                    </ul>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow gap-y-1">
+                <a class="btn btn-ghost text-xl">
+                    <span>English</span>
+                    <img src="/assets/logo.png" alt="">
+                    <span>জানালা</span>
+                </a>
+            </div>
+            <div class="navbar-end  hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 gap-x-4">
                     <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-circle-question"></i> FAQ</a>
                     </li>
                     <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-book"></i> Learn</a></li>
-                    <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-right-from-bracket"></i> Log Out</a></li>
+                    <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-right-from-bracket"></i> Log
+                            Out</a>
+                    </li>
                 </ul>
             </div>
-            <a class="btn btn-ghost text-xl">
-                <span>English</span>
-                <img src="/assets/logo.png" alt="">
-                <span>জানালা</span>
-            </a>
         </div>
-        <div class="navbar-end  hidden lg:flex">
-            <ul class="menu menu-horizontal px-1 gap-x-4">
-                <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-circle-question"></i> FAQ</a>
-                </li>
-                <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-book"></i> Learn</a></li>
-                <li class="btn btn-outline btn-primary"><a><i class="fa-solid fa-right-from-bracket"></i> Log Out</a></li>
-            </ul>
-        </div>
-    </div>
+    </header>
 
+    <!-- banner section  -->
+    <section class="banner w-11/12 flex flex-col-reverse md:flex-row justify-between gap-5 items-center py-5 mx-auto">
+        <div class="content flex-1 md:p-16">
+            <div class="text-center md:text-left">
+                <h1 class=" text-2xl md:text-5xl font-bold mb-8 "><span class="text-sky-400">English</span> is Easy!!</h1>
+                <p class="md:text-2xl">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের
+                    Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+            </div>
+            <!-- <div>
+                <input type="">
+                <input type="text" name="" id="">
+            </div>
+            <button></button> -->
+        </div>
+        <div class="image flex-1">
+            <img src="assets/hero-student.png" alt="">
+        </div>
+
+    </section>
 
 
 
